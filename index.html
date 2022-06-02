@@ -22,9 +22,9 @@
             <h2 class="content__header">Содержание:</h2>
             <nav>
                 <ol class="content__list">
-                    <li class="content__item"><a href="#">Отступ задается от предыдущего элемента к следующему</a></li>
-                    <li class="content__item"><a href="#">Отступ задается последнему возможному элементу в DOM-дереве</a></li>
-                    <li class="content__item"><a href="#">Для последнего элемента группы отступ обнуляется</a></li>
+                    <li class="content__item"><a href="#element">Отступ задается от предыдущего элемента к следующему</a></li>
+                    <li class="content__item"><a href="#dom">Отступ задается последнему возможному элементу в DOM-дереве</a></li>
+                    <li class="content__item"><a href="#last">Для последнего элемента группы отступ обнуляется</a></li>
                 </ol>
             </nav>
         </div>
@@ -32,7 +32,7 @@
 
     <section class="element">
         <div class="container">
-            <h2 class="element__header">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
+            <h2 class="element__header" id="element">Отступ задается от предыдущего элемента к следующему: от первого ко второму, сверху вниз, слева направо.</h2>
             <div class="element__wrapper">
                 <div class="element__block first"></div>
 
@@ -56,7 +56,7 @@
 
     <section class="dom">
         <div class="container">
-            <h2 class="dom__header">Отступ задается последнему возможному элементу в DOM-дереве</h2>
+            <h2 class="dom__header" id="dom">Отступ задается последнему возможному элементу в DOM-дереве</h2>
                 <p class="dom__text">Вообще, margin задают исключительно между соседними элементами DOM-дерева. Для примера, посмотрите на этот список:</p>
                 <img class="dom__image" src="img/dom/section.jpg" alt="код">
                 <img class="dom__image" src="img/dom/recipes.jpg" alt="рецепты">
@@ -76,7 +76,7 @@
 
     <section class="last">
         <div class="container">
-            <h2 class="last__header">Для последнего элемента группы отступ всегда обнуляется</h2>
+            <h2 class="last__header" id="last">Для последнего элемента группы отступ всегда обнуляется</h2>
                 <p class="last__text">Для наглядности возьмём наш предыдущий пример с рецептами</p>
                 <p class="last__text">Между рецептами расстояние одинаковое. Можно заметить, что и до следующего блока расстояние такое же.</p>
                 <img src="img/last/1.jpg" alt="" class="last__img">
