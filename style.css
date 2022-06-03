@@ -26,6 +26,8 @@ h1, h2, ul, ol, p, img, figure, figcaption {
 
 a {
     color: hsla(187, 96%, 19%, 1);
+    border-bottom:1px solid hsla(187, 96%, 19%, 1);
+    text-decoration: none;
 }
 
 .container {
